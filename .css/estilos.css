@@ -1,0 +1,144 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 50px; 
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+.logo {
+    width: 80px; 
+    height: 80px; 
+    border-radius: 50%;
+}
+
+.logo img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%; 
+}
+/* Estilos de la sección de inicio */
+#inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0;
+}
+
+.circle {
+    background-color: #333;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    overflow: hidden; 
+}
+
+.circle img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%; 
+}
+
+.welcome {
+    text-align: center;
+}
+
+.welcome h1 {
+    font-size: 36px;
+    animation: fadeIn 2s ease-in-out infinite;
+}
+
+@keyframes fadeIn {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+/* Estilos de la sección de tecnologías */
+#tecnologias {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.catalogo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tecnologia {
+    margin: 20px;
+    text-align: center;
+}
+
+.tecnologia img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.redes-sociales {
+    list-style-type: none;
+    padding: 0;
+}
+
+.redes-sociales li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.redes-sociales li:last-child {
+    margin-right: 0;
+}
+
+.redes-sociales a {
+    text-decoration: none;
+    color: #fff;
+}

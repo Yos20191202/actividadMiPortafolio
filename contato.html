@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href=".css/contacto.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="img/Logotipo.png" alt="Logo">
+            </div>
+            <ul>
+                <li><a href="sobremi.html">Sobre mí</a></li>
+                <li><a href="proyectos.html">Proyectos</a></li>
+                <li><a href="testimonios.html">Testimonios</a></li>
+                <li><a href="contacto.html">Contacto</a></li> <!-- Enlace al apartado de contacto -->
+            </ul>
+        </nav>
+    </header>
+    <div class="breadcrumbs">
+        <p><a href="index.html">Inicio</a> &gt; <a href="contacto.html">Contacto</a></p>
+    </div>
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>¡Hablemos! Puedes contactarme a través del siguiente formulario:</p>
+        <form id="formulario-contacto">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <section id="redes-sociales" class="redes-sociales-container">
+        <h2>Redes Sociales</h2>
+        <ul class="redes-sociales">
+            <li><a href="https://www.facebook.com/yoselin.bustoscruz.5?mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com/TuUsuario" target="_blank"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://instagram.com/yoss_395?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Puedes contactarme en yosebustos12@email.com</p>
+        </section>
+        <ul class="redes-sociales">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+        </ul>
+        <p>&copy; 2023 Mi Portafolio</p>
+    </footer>
+    <script src=".js/contacto.js"></script>
+</body>
+</html>
